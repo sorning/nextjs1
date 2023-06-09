@@ -1,6 +1,7 @@
 import Navbar from "../../components/layout/navbar/navbar";
 import Footer from "../../components/layout/footer/footer";
 import SingleProduct from "../../components/product/singleproduct";
+import RecommendProducts from "@/components/product/recommendproduct";
 
 export default function Home() {
     return (
@@ -11,7 +12,8 @@ export default function Home() {
                 </div>
                 
 
-                <SingleProduct/>
+                <SingleProduct />
+                <RecommendProducts />
             <Footer />
         </>
     )
